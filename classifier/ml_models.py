@@ -4,9 +4,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 
 # Load the trained models
-pip3 install joblib
-pip3 install numpy
-pip3 install scikit-learn
 rf_model = joblib.load('./models/hypertuned_rf_model.joblib') 
 nb_model = joblib.load('./models/hypertuned_nb_model.joblib')
 
